@@ -1,0 +1,13 @@
+{
+  "files.encoding": "utf8",
+  "files.autoGuessEncoding": false,
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.preserveFocus": false,
+  "code-runner.executorMap": {
+    "c": "cd \"$dir\"; C:\\Users\\dqs20\\msys64\\ucrt64\\bin\\gcc.exe -std=c11 \"$fileName\" -o \"$fileNameWithoutExt.exe\"; if ($?) { .\\$fileNameWithoutExt.exe }",
+    "cpp": "cd \"$dir\"; C:\\Users\\dqs20\\msys64\\ucrt64\\bin\\g++.exe -std=c++17 \"$fileName\" -o \"$fileNameWithoutExt.exe\"; if ($?) { .\\$fileNameWithoutExt.exe }"
+  },
+  "C_Cpp.default.cStandard": "c11",
+  "C_Cpp.default.cppStandard": "c++17"
+}
